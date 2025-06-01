@@ -1,5 +1,3 @@
-import Image from "next/image";
-import ThemeButton from "./common/ThemeButton";
 import Header from "./common/Header";
 
 export default function Home() {
