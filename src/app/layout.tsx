@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
 import "./globals.css";
+import type { Metadata } from "next";
 import { Providers } from "./providers";
 
-export const metadata: Metadata = {
-  title: "Landing Page Template",
-  description: "Landing Page Template using Next.js, Tailwind CSS",
-};
+// export const metadata: Metadata = {
+//   title: "Landing Page Template",
+//   description: "Landing Page Template using Next.js, Tailwind CSS",
+// };
 
 export default function RootLayout({
   children,
