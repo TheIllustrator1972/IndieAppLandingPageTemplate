@@ -1,6 +1,5 @@
 const landingPageData = {
   appName: "App name",
-
   colors: {
     light: {
       primary: "bg-blue-600 text-white", // Tailwind classes for primary elements
@@ -22,3 +21,5 @@ const landingPageData = {
     },
   },
 };
+
+export default landingPageData;
