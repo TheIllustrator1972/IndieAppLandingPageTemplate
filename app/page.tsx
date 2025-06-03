@@ -3,6 +3,7 @@ import Header from "./common/Header";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import AppScreenshots from "./common/AppScreenshots";
 import DownloadOnTheAppStore from "./common/Download/DownloadOnTheAppStore";
+import Copyright from "./common/Copytight/Copyright";
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
 
         <AppScreenshots />
       </main>
-      <footer></footer>
+      <footer>
+        <Copyright />
+      </footer>
     </div>
   );
 }

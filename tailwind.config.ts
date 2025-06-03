@@ -17,6 +17,8 @@ export default {
         "dark-app-name-text": "#000000",
         "light-coming-soon-text": "#b2b2b2",
         "dark-coming-soon-text": "#374151",
+        "light-copytight-text": "#b2b2b2",
+        "dark-copytight-text": "#4b5563",
       },
       borderRadius: {
         lg: "var(--radius)",
