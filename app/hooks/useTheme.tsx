@@ -5,7 +5,6 @@ export const useTheme = () => {
   const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    // Get theme from localStorage or default to "dark"
     const localTheme = localStorage.getItem("p_theme");
     if (localTheme) {
       setTheme(localTheme);
