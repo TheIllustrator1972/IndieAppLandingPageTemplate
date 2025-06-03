@@ -6,7 +6,7 @@ import React from "react";
 const ThemeButton = () => {
   const { theme, toggleTheme } = useTheme();
   return (
-    <div onClick={toggleTheme} className="cursor-pointer w-fit">
+    <div onClick={toggleTheme} className="w-fit cursor-pointer">
       {theme === "dark" ? <Sun /> : <MoonStar />}
     </div>
   );

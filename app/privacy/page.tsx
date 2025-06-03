@@ -1,5 +1,5 @@
 export default function Privacy() {
   return (
-    <h1 className="text-2xl font-bold text-center mt-10">Privacy Policy</h1>
+    <h1 className="mt-10 text-center text-2xl font-bold">Privacy Policy</h1>
   );
 }
