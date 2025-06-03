@@ -13,6 +13,10 @@ export default {
       colors: {
         "light-background": "#FFFFFF",
         "dark-background": "#000000",
+        "light-app-name-text": "#FFFFFF",
+        "dark-app-name-text": "#000000",
+        "light-coming-soon-text": "#b2b2b2",
+        "dark-coming-soon-text": "#374151",
       },
       borderRadius: {
         lg: "var(--radius)",

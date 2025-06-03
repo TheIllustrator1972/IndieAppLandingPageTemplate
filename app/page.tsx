@@ -1,10 +1,19 @@
+import AppTitleAndDescription from "./common/AppTitleAndDescription";
 import Header from "./common/Header";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import AppScreenshots from "./common/AppScreenshots";
+import DownloadOnTheAppStore from "./common/Download/DownloadOnTheAppStore";
 
 export default function Home() {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-light-background text-gray-900 dark:bg-dark-background dark:text-gray-100">
+    <div className="flex h-screen w-screen flex-col items-center justify-center bg-light-background dark:bg-dark-background">
       <Header />
+      <main className="mt-8 flex-grow overflow-y-auto">
+        <AppTitleAndDescription />
+
+        <AppScreenshots />
+      </main>
+      <footer></footer>
     </div>
   );
 }
