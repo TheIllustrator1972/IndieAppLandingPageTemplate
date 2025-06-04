@@ -52,7 +52,7 @@ const AppScreenshots = () => {
             <img
               src={src}
               alt={`App Screenshot ${index + 1}`}
-              className="max-h-[50vh] w-full object-contain transition-transform duration-300 hover:scale-105"
+              className="max-h-[45vh] w-full object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
         ))}
