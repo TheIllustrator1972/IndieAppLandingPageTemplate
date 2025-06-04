@@ -2,6 +2,9 @@
 
 A responsive and customizable landing page template built with Next.js, TypeScript, and Tailwind CSS, perfect for showcasing your new indie application.
 
+![alt text](./public/preview-dark.png)
+![alt text](./public/preview-light.png)
+
 ## Features
 
 - **Responsive Design**: Adapts to various screen sizes from mobile to desktop.
