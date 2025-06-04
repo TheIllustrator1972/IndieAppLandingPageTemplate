@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   twitter: twitterMetadata,
 };
 
-const GA_MEASUREMENT_ID = process.env.GOOGLE_ANALYTICS_ID;
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
 
 export default function RootLayout({
   children,
