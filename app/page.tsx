@@ -10,7 +10,6 @@ export default function Home() {
       <Header />
       <main className="mt-8 flex-grow overflow-y-auto">
         <AppTitleAndDescription />
-
         <AppScreenshots />
       </main>
       <footer>
