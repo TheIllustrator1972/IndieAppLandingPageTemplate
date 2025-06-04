@@ -10,3 +10,29 @@ export const appData = {
     website: "https://nileshkamble.co.in/",
   },
 };
+
+export const openGraphMetadata = {
+  title: appData.name,
+  description: appData.description,
+  // The URL should be the place where the website is deployed
+  url: "https://indie-app-landing-page-template.vercel.app/",
+  siteName: appData.name,
+  images: [
+    {
+      url: "/AppLogo/AppLogo.png",
+      width: 1200,
+      height: 630,
+      alt: appData.name,
+    },
+  ],
+  locale: "en_US",
+  type: "website",
+};
+
+export const twitterMetadata = {
+  card: "summary_large_image",
+  title: appData.name,
+  description: appData.description,
+  images: ["/AppLogo/AppLogo.png"],
+  creator: "@devillus1972",
+};

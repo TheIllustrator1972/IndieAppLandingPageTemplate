@@ -10,20 +10,16 @@ export default {
   mode: "jit",
   theme: {
     extend: {
+      fontFamily: { sans: ["var(--font-roboto)", "sans-serif"] },
       colors: {
         "light-background": "#FFFFFF",
         "dark-background": "#000000",
         "light-app-name-text": "#FFFFFF",
         "dark-app-name-text": "#000000",
-        "light-coming-soon-text": "#b2b2b2",
-        "dark-coming-soon-text": "#374151",
-        "light-copytight-text": "#b2b2b2",
-        "dark-copytight-text": "#4b5563",
-      },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        "light-coming-soon-text": "#ccc",
+        "dark-coming-soon-text": "#444",
+        "light-copytight-text": "#444",
+        "dark-copytight-text": "#ccc",
       },
     },
   },

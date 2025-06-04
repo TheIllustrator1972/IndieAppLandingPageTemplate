@@ -13,7 +13,7 @@ const AppTitleAndDescription = () => {
       {appData?.isLaunched ? (
         <DownloadOnTheAppStore />
       ) : (
-        <p className="text-dark-coming-soon-text dark:light-coming-soon-text pt-4 text-base font-semibold sm:text-lg md:text-xl">
+        <p className="pt-4 text-base font-semibold text-light-coming-soon-text dark:text-dark-coming-soon-text sm:text-lg md:text-xl">
           Coming soon on the App Store
         </p>
       )}

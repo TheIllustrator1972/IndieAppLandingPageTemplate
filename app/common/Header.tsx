@@ -8,10 +8,10 @@ const Header = () => {
       <div className="flex items-center gap-3 sm:gap-4">
         <img
           src="/AppLogo/AppLogo.png"
-          className="h-8 w-8 object-cover sm:h-10 sm:w-10"
+          className="h-6 w-6 object-cover sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-12 lg:w-12"
           alt="App Logo"
         />
-        <h2 className="text:dark-app-name-text text-xl font-bold tracking-wide dark:text-light-app-name-text sm:text-2xl md:text-3xl">
+        <h2 className="text:dark-app-name-text text-xl font-medium tracking-wide dark:text-light-app-name-text sm:text-2xl md:text-3xl">
           {appData.name}
         </h2>
       </div>
