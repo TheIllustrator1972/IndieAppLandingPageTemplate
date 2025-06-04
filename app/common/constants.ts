@@ -9,6 +9,8 @@ export const appData = {
     linkedin: "https://www.linkedin.com/in/nileshsk1/",
     website: "https://nileshkamble.co.in/",
   },
+  appStoreLink:
+    "https://apps.apple.com/in/developer/nilesh-kamble/id1790227862",
 };
 
 export const openGraphMetadata = {

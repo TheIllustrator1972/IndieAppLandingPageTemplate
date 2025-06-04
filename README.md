@@ -132,3 +132,10 @@ text-dark-coming-soon-text
 ```
 
 ```
+
+# Things to change for every app
+
+appName
+description
+download link
+google analytics Id
