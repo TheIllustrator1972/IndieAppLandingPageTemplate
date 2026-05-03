@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -11,7 +15,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
     "plugins": [
       {
@@ -19,10 +23,18 @@
       }
     ],
     "paths": {
-      "@/components/*": ["./components/*"],
-      "@/Hooks/*": ["./app/hooks/*"],
-      "@/UI/*": ["./app/ui/*"],
-      "@/*": ["./app/*"]
+      "@/components/*": [
+        "./components/*"
+      ],
+      "@/Hooks/*": [
+        "./app/hooks/*"
+      ],
+      "@/UI/*": [
+        "./app/ui/*"
+      ],
+      "@/*": [
+        "./app/*"
+      ]
     }
   },
   "include": [
@@ -30,7 +42,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/components/card.js"
+    "app/components/card.js",
+    ".next/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
